@@ -51,12 +51,12 @@ const Home = () => {
               Start a Project <Rocket size={18} />
             </button>
             
-            <Link
+            {/* <Link
               to="/"
               className="px-8 py-4 border border-gray-700 text-white font-medium rounded-full hover:bg-gray-900 transition-all flex items-center justify-center"
             >
               View Portfolio
-            </Link>
+            </Link> */}
           </div>
         </div>
 
