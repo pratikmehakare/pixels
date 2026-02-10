@@ -44,7 +44,7 @@ const Navbar = () => {
         {isMenuOpen && (
           <div className="md:hidden bg-black border-b border-gray-800 absolute w-full px-6 py-4 flex flex-col space-y-4">
             <Link to="/services" className="text-gray-300 hover:text-white" onClick={toggleMenu}>Services</Link>
-            <Link to="/gallery" className="text-gray-300 hover:text-white" onClick={toggleMenu}>Work</Link>
+            {/* <Link to="/gallery" className="text-gray-300 hover:text-white" onClick={toggleMenu}>Work</Link> */}
             <Link to="/digital-invite-service" className="text-gray-300 hover:text-white" onClick={toggleMenu}>Invitations</Link>
             
             {/* UPDATED: Mobile Contact Us Button */}
