@@ -21,7 +21,6 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-black text-white font-sans selection:bg-purple-500 selection:text-white">
-      
       {/* Hero Section */}
       <header className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
         <div className="container mx-auto px-6 relative z-10 text-center">
@@ -50,7 +49,7 @@ const Home = () => {
             >
               Start a Project <Rocket size={18} />
             </button>
-            
+
             <Link
               to="https://www.instagram.com/theprateekpixelss?igsh=bnJtc2U5Mmd5Z295"
               className="px-8 py-4 border border-gray-700 text-white font-medium rounded-full hover:bg-gray-900 transition-all flex items-center justify-center"
@@ -232,9 +231,12 @@ const Home = () => {
             <div className="flex justify-center gap-6 text-gray-400">
               <a
                 href="https://www.instagram.com/theprateekpixelss?igsh=bnJtc2U5Mmd5Z295"
-                className="hover:text-pink-500 transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:text-pink-500 transition-colors"
               >
-                <Instagram size={24} /> theprateekpixelss
+                <Instagram size={24} />
+                <span>theprateekpixelss</span>
               </a>
             </div>
           </div>
@@ -242,7 +244,10 @@ const Home = () => {
       </section>
 
       {/* 4. Render the Contact Modal at the end */}
-      <ContactModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+      <ContactModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
     </div>
   );
 };

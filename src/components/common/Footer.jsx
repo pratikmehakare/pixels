@@ -27,12 +27,22 @@ const Footer = () => {
               Crafting visual stories that make an impact. From cinematic
               wedding films to high-conversion brand ads.
             </p>
-            <div className="flex gap-4">
-              <SocialIcon
-                icon={<Instagram size={20} />}
-                href="https://www.instagram.com/prateekpixelss?igsh=MTV1ZGIxN2lqeXJ6"
-              />
-            </div>
+<div className="flex items-center gap-3">
+  <SocialIcon
+    icon={<Instagram size={20} />}
+    href="https://www.instagram.com/theprateekpixelss?igsh=bnJtc2U5Mmd5Z295"
+  />
+  
+  {/* I made the text a link too, so it's clickable */}
+  <a 
+    href="https://www.instagram.com/theprateekpixelss?igsh=bnJtc2U5Mmd5Z295"
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="text-gray-300 hover:text-white transition-colors font-medium"
+  >
+    theprateekpixelss
+  </a>
+</div>
           </div>
 
           {/* Column 2: Services */}
