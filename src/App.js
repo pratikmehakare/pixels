@@ -13,6 +13,7 @@ import WeddingInvitation from './pages/DigitalInvite/WeddingInvitation';
 import DigitalInviteService from './pages/DigitalInvite/DigitalInviteService';
 //import Gallery from './pages/Gallery';
 import Services from './pages/Services';
+import About from './pages/AboutUs';
 
 function App() {
   return (
@@ -56,6 +57,12 @@ function App() {
             <Route path="/services" element={
               <PageTransition>
                 <Services />
+              </PageTransition>
+            } />
+
+                        <Route path="/about-us" element={
+              <PageTransition>
+                <About />
               </PageTransition>
             } />
 

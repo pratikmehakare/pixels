@@ -21,7 +21,7 @@ const DigitalInviteService = () => {
           <span>Go Paperless • Go Digital</span>
         </div>
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
-          Your Wedding. <br />
+          Your Event. <br />
           <span className="bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">
             Your Personal Website.
           </span>
