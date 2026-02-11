@@ -231,7 +231,7 @@ const Home = () => {
 
             <div className="flex justify-center gap-6 text-gray-400">
               <a
-                href="https://www.instagram.com/prateekpixelss?igsh=MTV1ZGIxN2lqeXJ6"
+                href="https://www.instagram.com/theprateekpixelss?igsh=bnJtc2U5Mmd5Z295"
                 className="hover:text-pink-500 transition-colors"
               >
                 <Instagram size={24} />
