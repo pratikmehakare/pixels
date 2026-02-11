@@ -50,12 +50,14 @@ const Home = () => {
               Start a Project <Rocket size={18} />
             </button>
 
-            <Link
-              to="https://www.instagram.com/theprateekpixelss?igsh=bnJtc2U5Mmd5Z295"
+            <a
+              href="https://www.instagram.com/theprateekpixelss?igsh=bnJtc2U5Mmd5Z295"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-4 border border-gray-700 text-white font-medium rounded-full hover:bg-gray-900 transition-all flex items-center justify-center"
             >
               View Portfolio
-            </Link>
+            </a>
           </div>
         </div>
 
